@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE-edge" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/61aafcfb29.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-12"> <!--//this is how you do responsive design w/ bootstrap's grid system-->.
+            <div class="col-xs-12 col-md-4">
+              <div class="social-icons">
+                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-soundcloud fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-flickr fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <a href="index.html">
+                 <img src="http://placehold.it/140x140" alt="placeholder image for logo" class="img-circle">
+              </a>
+              <h1>Company Name</h1>
+            </div>
+            <div class="col-md-4">
+              <form role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+            </div>
+          </div>
+            
+            <div class="col-xs-12 col-md-12">
+              <nav role="navigation" class="navbar navbar-default">
+              <div class="container-fluid">
+              </div>
+              <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Meet the team</a></li>
+                  <li><a href="#">Newsroom</a></li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Connect <span class="caret"</span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Read our newsletter</a></li>
+                      <li><a href="#">Our company in the news</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">What others are saying</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Contact <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Contact your local representative</a></li>
+                      <li><a href="#">Media Resources</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    </header>
+    
+    
+    <div class="main">      
+      <div class="container">
+        <div class="row"> 
+          
+<!-- Carousel================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" data-pause="hover" data-keyboard="true" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" data-pause="hover" data-keyboard="true"></li>
+        <li data-target="#myCarousel" data-slide-to="2" data-pause="hover" data-keyboard="true"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="http://placehold.it/1200x520" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Example supporting text.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="http://placehold.it/1200x520" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="http://placehold.it/1200x520" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+<!-- Sign Up Banner================================================== -->
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <div class="email-banner">
+        <form class="form-inline">
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" placeholder="me@example.com">
+          </div>
+          <button type="submit" class="btn btn-default">Subscribe to our newsletter</button>
+        </form>
+      </div>            
+    </div><!-- /banner -->
+          
+<!-- Recent News Feed=============================================== -->
+    <div class="col-xs-12 col-md-8">
+      <h2>Recent News</h2>
+      <div class="media">
+        <div class="media-left">
+          <ul class="list-unstyled">
+            <li><a href="#"><img class="media-object" src="http://placehold.it/64x64" alt=""></a></li>
+            <li><a href="#">News Story 1</a></li>
+            <li><a href="#">News Story 1</a></li>
+            <li><a href="#">News Story 1</a></li>
+            <li><a href="#">News Story 1</a></li>      
+          </ul>
+        </div>
+      </div>
+    </div>
+
+<!--          
+          <form class="form">
+            <div class="col-xs-8 col-md-10">   //when the device is smaller than 768 px, use only 8 columns
+                <input id="comment" type="text" placeholder="share your thoughts" />
+            </div>
+                                                         
+            <div class="col-xs-4 col-md-2">
+             <button type="submit" class="btn">post</button>
+            </div>
+          </form>
+        </div>
+        <ul class="comments" id="comments">
+          <li>Have you felt it?</li>
+          <li>There has been an awakening</li>
+        </ul>
+      </div>
+    </div>-->
+      
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>                        
+    <script src="script.js"></script>>
+  </body>
+</html>
