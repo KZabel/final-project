@@ -1,0 +1,130 @@
+/*======================Branding Banner - Row 1===========================*/
+
+#brand-wrapper {
+  margin: 1em auto;
+}
+
+.social-icons a {
+  color: #92A4B2;
+  padding-right: 0.5em;
+}
+
+.social-icons a:hover {
+  color: #B2915E;
+}
+
+#logo img{
+  display: block;
+  top: 5%;
+  left: 140%;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  position: absolute;
+  vertical-align: middle;
+  z-index: 1100;
+}
+
+#logo a {
+  text-indent: -9999px;
+}
+
+/*==================Nav - Row 2====================*/
+
+#navbar-custom {
+  background-color: #EDF7FF;
+}
+
+
+#nav-links {
+  border-bottom: 3px solid #EDF7FF;
+  display: block;
+  float: left;
+  font-size: 16px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  /*margin-right: 2em;
+  text-align: center;*/
+  transition: 0.3s all;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+#nav-links:hover {
+border-bottom: 3px solid #92A4B2;
+}
+
+.search-wrapper {
+  display: block;
+  float: right;
+  margin-top: 0.72em;
+  margin-bottom: 0.72em;
+}
+
+.btn-default:hover {
+  background-color: #92A4B2; 
+}
+
+/*=====================Carousel - Row 3=====================*/
+
+.carousel-caption h1 {
+  color: #3b3b3b;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 0.5px 0.5px #FFF8ED;
+}
+
+.carousel-caption p {
+  color: #92A4B2;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0.5px 0.5px #FFF8ED;
+}
+
+.carousel-caption .btn-default {
+  background-color: #B2915E;
+  border-color: #a58758;
+}
+
+.carousel-caption .btn-default:hover {
+  background-color: #92A4B2;  
+}
+
+/*================E-newsletter sign-up - Row 4====================*/
+
+/*.email-banner {
+  background-color: #EDF7FF;
+   margin: 0 auto;
+}
+
+#sign-up {
+  display: block;
+}
+
+.form-control, .subscribe{
+  margin: 0 auto;
+}
+
+.form-input {
+  padding: 1em 0 1em 1em;
+  margin: 0 auto;
+}*/
+
+h2 {
+  color: #92A4B2;
+}
+
+.excerpt {
+  font-style: italic;
+}
+
+.email-signup {
+  background-color: #EDF7FF;
+  border-radius: 6px;
+}
+
+.signup-form {
+  margin: 2em;
+}
