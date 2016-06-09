@@ -90,13 +90,17 @@ function initMap(){
   var mapDiv = document.getElementById('map');
   var map = new google.maps.Map(mapDiv, {center: myLatLng, zoom: 16});
   var marker = new google.maps.Marker({
-        position: {lat: 47.035722, lng: -122.904830}
+        position: myLatLng,
+        map: map,
+        title: 'Gov Comms'
     });
-
-marker.setMap(map);
+  
+  var contentString = '<div id="content">' + '<div id="siteNotice">' + '</div>' + '<h2 id="firstHeading">Gov Comms</h2>' + '<h3><b>About</b></h3><br />' + '<div id="bodyContent"' + '<p>Pellentesque arcu odio, lobortis et ligula ut, congue luctus massa. Cras vel sodales nunc. Proin molestie lacus eu turpis lacinia, at ultrices neque pulvinar. Nulla facilisi. Donec facilisis diam arcu, sed sodales orci dignissim ultrices. Sed pulvinar arcu ut purus porttitor, id placerat enim iaculis. Suspendisse ullamcorper felis quis euismod ornare. Etiam ut tristique ipsum.</p><br />' + '<h3><b>Contact</b></h3><br />' + '<p>416 Sid Snyder Ave SW<br />Olympia, WA 98504<br />PHONE:253-555-5555<br /><a href="mailto:kylee.zabel@gmail.com">Email Us</a></p>' + '</div>' + '</div>';
+  
+  marker.setMap(map);
 
 var infoWindow = new google.maps.InfoWindow({
-        content: 'Gov Comms'
+        content: contentString
     });
 marker.addListener( 'click', function() {
         infoWindow.open(map, marker);
